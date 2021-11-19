@@ -9,6 +9,12 @@ int tong(int a, int b){
 int tich(int a,b){
 	return a*b;
 };
+void ktraChanLe(int a){
+	if(a%2==0){
+		cout<<"a la so chan!"<<endl;
+	}else cout<<"a la so le!"<<endl;
+	
+};
 int main()
 {
 	int a, b;
@@ -25,6 +31,7 @@ int main()
 		cout<<"Tong la: "<<tong(a,b)<<endl;
 	if(phepToan == '*')
 		cout<<"Tich la: "<<tich(a,b)<<endl;
+	ktraChanLe(a);
 	system("pause");
 	return 0;
 }
